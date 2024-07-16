@@ -1,0 +1,7 @@
+{
+  "about_url": "Put your theme's public repo or Meta topic URL here",
+  "license_url": "Put your theme's LICENSE URL here",
+  "assets": {},
+  "name": "discourse-custom-logo-link",
+  "component": true
+}
