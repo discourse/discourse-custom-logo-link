@@ -1,5 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
-import getURL from "discourse-common/lib/get-url";
+import getURL from "discourse/lib/get-url";
 
 export default apiInitializer("1.8.0", (api) => {
   api.registerHomeLogoHrefCallback(() => {
