@@ -1,7 +1,7 @@
 import { apiInitializer } from "discourse/lib/api";
 import getURL from "discourse/lib/get-url";
 
-export default apiInitializer("1.8.0", (api) => {
+export default apiInitializer((api) => {
   api.registerHomeLogoHrefCallback(() => {
     const site = api.container.lookup("service:site");
     const user = api.getCurrentUser();
